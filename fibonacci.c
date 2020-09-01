@@ -27,3 +27,33 @@ int main ()
 
     return 0;
 }
+
+// # include <stdio.h>
+
+// int main()
+// {
+//     int l_num, to_print, a=0, b=1;
+//     printf("Enter a number.\n");
+//     scanf("%d", &l_num);
+//     printf("Fibonacci pattern of %d numbers\n", l_num);
+
+
+//     for (int f_num = 0; f_num <= l_num; f_num++)
+//     {
+//         if (f_num <= 1)
+//         {
+//             to_print = f_num;
+//         }
+//         else
+//         {
+//             to_print = a + b;
+//             a = b;
+//             b = to_print;
+//         }
+        
+//         printf("%d\n", to_print);
+        
+//     }
+    
+//     return 0;
+// }

@@ -20,7 +20,7 @@ int main()
 
 
 
-    // with do while loop.
+    // // using do while loop.
 
     // do{
     //     sum = sum +n;
