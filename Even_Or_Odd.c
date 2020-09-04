@@ -1,18 +1,19 @@
 // C program to find a number if it is even or odd
 
 # include <stdio.h>
-int main()
+
+int main ()
 {
-    int num;
-    printf("Enter a number to check if it is even or odd:\n");
-    scanf("%d", &num);
-    if (num%2==0)
-    {
-        printf("The number you have entered is even.");
+    int input;
+    printf("Enter a number to see if it is even or odd\n");
+    scanf("%d", &input);
+    if(input%2 == 0){
+        printf("%d is am even number\n", input);
     }
+
     else
     {
-        printf("The number you have entered is odd.");
+        printf("%d is an odd number.\n", input);
     }
     
     return 0;

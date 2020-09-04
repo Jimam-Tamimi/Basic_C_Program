@@ -1,18 +1,15 @@
 # include <stdio.h>
-int main()
-{
 
-    int a, b;
-    printf("Enter the first number to start\n");
-    scanf("%d", &a);
-    printf("Enter the last number to end\n");
-    scanf("%d", &b);
-    while (a <= b)
+int main ()
+{
+    int n;
+    printf("Enter a number\n");
+    scanf("%d", &n);
+    printf("\n");
+    for (int i = 1; i <= n; i++)
     {
-        printf("%d --> %d\n",a,  a*a);
-        a = a+1 ;
+        printf("%d --> %d\n", i, i*i);
     }
     
-
     return 0;
 }

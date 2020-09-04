@@ -1,21 +1,19 @@
 // Program to find factorial of first n numbers
 # include <stdio.h>
 
-int main()
+int main ()
 {
+    int factorial = 1, last_num;
+    printf("Enter the last number\n");
+    scanf("%d", &last_num);
 
-    int a = 1, factotial = 1, n, o;
-    printf("Enter a number.\n");
-    scanf("%d", &n);
-    o = o + n;
-    while (a <= n)
+    for (int i = 1; i <= last_num; i++)
     {
-        factotial = factotial * n;
-        n--;
+        factorial = factorial * i;
     }
-    
 
-   printf("The factorial of first %d number %d ",o, factotial);
-   
+    printf("Factorial of %d is %d", last_num, factorial);
+    
+// 1,2,3,
     return 0;
 }
